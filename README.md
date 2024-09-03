@@ -1,8 +1,14 @@
+Análise de Churn em Serviços de Streaming
 
-Preveja os usuários com alta chance de deixar seu Streaming Utilize um modelo de classificação para mapear qual o perfil de usuários tem mais chance de deixar sua plataforma de streaming. Compreender quem é o perfil que está aumentando o churn do seu negócio é essencial para tomar ações que reduzam essas perdas, seja alterando critérios na venda ou modificando o produto. Contexto
+Descrição do Projeto: Este projeto visa prever a probabilidade de cancelamento de assinatura (churn) de clientes em um serviço de streaming. Utilizando um conjunto de dados com informações sobre idade, gênero, tipo de assinatura, dispositivos conectados, entre outras variáveis, foram aplicadas diversas técnicas de pré-processamento, como tratamento de valores nulos, normalização e codificação de variáveis categóricas.
 
-Você trabalha em uma plataforma de streaming e a diretoria está preocupada com o alto índice de usuários cancelando as suas assinaturas. Eles acreditam que é possível prever se um usuário tem mais chance de deixar a plataforma antes que isso aconteça, e com base nessa informação tomar ações para reduzir o churn.
+Ferramentas e Tecnologias Utilizadas:
 
-Seu objetivo é criar um modelo de classificação capaz de prever se um usuário tem mais chance de cancelar a sua assinatura na plataforma ou não. Para isso, a empresa forneceu uma base de dados em csv contendo dados sobre as contas dos clientes. Sobre os dados Uma adaptação do problema de ecommerce, disponível no Kaggle.
+Python: Pandas, NumPy, Matplotlib, Seaborn
+Scikit-learn: Modelos de machine learning (Random Forest, Regressão Logística, KNN), processamento de dados (OneHotEncoder, StandardScaler), e técnicas de otimização (GridSearchCV)
+XGBoost para experimentação adicional com um modelo baseado em gradiente boosting
+Principais Desafios: O maior desafio enfrentado foi lidar com dados faltantes e valores infinitos gerados durante os cálculos, como ao dividir o tempo na plataforma pelo número de serviços de streaming. Para isso, técnicas de imputação e substituição de valores foram aplicadas para manter a integridade dos dados.
 
-Os dados fornecidos possuem informações sobre as contas dos clientes na plataforma de streaming, divididos entre contas Basic, Standard e Premium, onde cada uma oferece uma gama maior de serviços que a anterior.
+Resultados e Insights: Os modelos foram avaliados usando métricas de F1-Score, precisão e recall. O modelo de Regressão Logística apresentou o melhor equilíbrio entre essas métricas com um F1-Score de 70,10%, superando o KNN e Random Forest. A análise mostrou que variáveis como o tempo na plataforma e o tipo de assinatura estão fortemente correlacionadas com a propensão ao churn.
+
+Conclusão: Este projeto demonstra a aplicação prática de técnicas de machine learning em um problema de negócios real, onde a identificação de clientes propensos a cancelar a assinatura pode ajudar a empresa a desenvolver estratégias de retenção mais eficazes.

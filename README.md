@@ -19,19 +19,25 @@ Para entender melhor os dados, foram gerados gráficos de barras e boxplots, ana
 Gráfico 1: Número de Churn por Gênero
 
 Este gráfico mostra a distribuição do churn entre homens e mulheres, revelando que a taxa de churn é semelhante entre os gêneros.
+
+
 ![mumero de churned por genero](https://github.com/user-attachments/assets/bc105e9e-e963-4f24-a658-b57eb0f8186a)
 
 Gráfico 2: Número de Perfis Ativos por Churn
+
+
 ![numero de serviço por genero](https://github.com/user-attachments/assets/bc57b149-bef7-42ca-813b-4e5ba1a2d8ce)
 
 Aqui, observamos a relação entre o número de perfis ativos e a taxa de churn. Curiosamente, clientes com 3 perfis ativos apresentam uma menor probabilidade de churn.
 
 Gráfico 3: Número de Serviços de Streaming por Gênero
+
 ![numero de serviço por genero](https://github.com/user-attachments/assets/3bc19ea2-3c65-45d4-939e-431c3ab372e1)
 
 Este gráfico mostra que, em média, as mulheres utilizam ligeiramente mais serviços de streaming que os homens.
 
 Gráfico 4: Número de Serviços de Streaming por Tipo de Assinatura
+
 ![numero de serviços de streaming por inscrisção](https://github.com/user-attachments/assets/b6cff36a-520a-4c04-9165-69b235a00280)
 
 Ao analisar o número de serviços de streaming utilizados com base no tipo de assinatura, notamos que clientes com assinaturas Premium tendem a utilizar mais serviços de streaming.
@@ -41,6 +47,8 @@ Tratamento de Outliers:
 Utilizando um boxplot, foram identificados e tratados outliers nas variáveis numéricas, garantindo que as análises subsequentes fossem mais robustas.
 
 Gráfico 5: Tratamento de Outliers
+
+
 ![tratamento de outliers](https://github.com/user-attachments/assets/6664896a-0882-4a92-aaa6-699ec6cc8489)
 
 O gráfico boxplot destaca a distribuição das variáveis e os outliers que foram removidos ou ajustados no processo.

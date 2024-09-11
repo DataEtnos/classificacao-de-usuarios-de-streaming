@@ -48,8 +48,9 @@ Utilizando um boxplot, foram identificados e tratados outliers nas variáveis nu
 
 Gráfico 5: Tratamento de Outliers
 
+![download](https://github.com/user-attachments/assets/10b08b47-210b-4632-92b0-924b379f8520)
 
-![tratamento de outliers](https://github.com/user-attachments/assets/6664896a-0882-4a92-aaa6-699ec6cc8489)
+
 
 O gráfico boxplot destaca a distribuição das variáveis e os outliers que foram removidos ou ajustados no processo.
 
